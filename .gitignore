@@ -1,0 +1,4 @@
+KicadProject/**/*.sch-bak
+KicadProject/**/*.lib
+KicadProject/**/*.kicad_pcb-bak
+KicadProject/**/*.DS_Store

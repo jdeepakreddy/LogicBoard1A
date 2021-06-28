@@ -1,4 +1,4 @@
-19234930886544749
+19236557091671445
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -82298,6 +82298,13 @@ MGV2520101R0M-10
 0
 2
 2
+U_Logos
+logicboards_pcb_logo
+
+
+0
+0
+0
 U_Module
 BGX220S22HNA21
 BLE 5.0 Module

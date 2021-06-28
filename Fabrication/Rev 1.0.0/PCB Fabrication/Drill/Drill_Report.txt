@@ -1,0 +1,30 @@
+*************	DRILL REPORT	***********************
+
+Created on Mon Jun 28 10:20:19 2021
+Rev - 1.0.0
+
+_______________________________________________________________________________
+
+Drill file 'PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.201mm  0.0079"  (547 holes)
+    T2  2.200mm  0.0866"  (2 holes)
+
+    Total plated holes count 549
+
+
+Drill file 'TopL-SignalL1.drl' contains
+    holes connecting layer pair: 'Top_Layer and Signal_Layer_1' (blind/micro vias):
+    =============================================================
+    T1  0.100mm  0.0039"  (100 holes)
+
+    Total plated holes count 100
+
+
+Drill file 'BottomL-SignalL4.drl' contains
+    holes connecting layer pair: 'Signal_Layer_4 and Bottom_Layer' (blind/micro vias):
+    =============================================================
+    T1  0.100mm  0.0039"  (25 holes)
+
+    Total plated holes count 25

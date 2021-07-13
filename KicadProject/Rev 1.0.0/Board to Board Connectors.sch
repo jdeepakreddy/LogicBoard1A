@@ -305,7 +305,7 @@ U 1 1 60BD154F
 P 3550 6200
 F 0 "FID1" H 3635 6200 50  0000 L CNN
 F 1 "Fiducial" H 3635 6155 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3550 6200 50  0001 C CNN
+F 2 "U_Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3550 6200 50  0001 C CNN
 F 3 "~" H 3550 6200 50  0001 C CNN
 	1    3550 6200
 	1    0    0    -1  
@@ -316,7 +316,7 @@ U 1 1 60BD17EB
 P 3950 6200
 F 0 "FID2" H 4035 6200 50  0000 L CNN
 F 1 "Fiducial" H 4035 6155 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3950 6200 50  0001 C CNN
+F 2 "U_Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3950 6200 50  0001 C CNN
 F 3 "~" H 3950 6200 50  0001 C CNN
 	1    3950 6200
 	1    0    0    -1  
@@ -327,7 +327,7 @@ U 1 1 60BD1A8F
 P 4350 6200
 F 0 "FID3" H 4435 6200 50  0000 L CNN
 F 1 "Fiducial" H 4435 6155 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 4350 6200 50  0001 C CNN
+F 2 "U_Fiducial:Fiducial_0.5mm_Mask1.5mm" H 4350 6200 50  0001 C CNN
 F 3 "~" H 4350 6200 50  0001 C CNN
 	1    4350 6200
 	1    0    0    -1  
@@ -338,7 +338,7 @@ U 1 1 60BD60F6
 P 1800 6350
 F 0 "H1" H 1900 6350 50  0000 L CNN
 F 1 "MountingHole_Pad" H 1900 6308 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1800 6350 50  0001 C CNN
+F 2 "U_MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1800 6350 50  0001 C CNN
 F 3 "~" H 1800 6350 50  0001 C CNN
 	1    1800 6350
 	1    0    0    -1  
@@ -349,7 +349,7 @@ U 1 1 60BD6EA1
 P 2200 6350
 F 0 "H3" H 2300 6350 50  0000 L CNN
 F 1 "MountingHole_Pad" H 2300 6308 50  0001 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2200 6350 50  0001 C CNN
+F 2 "U_MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 2200 6350 50  0001 C CNN
 F 3 "~" H 2200 6350 50  0001 C CNN
 	1    2200 6350
 	1    0    0    -1  
@@ -360,7 +360,7 @@ U 1 1 60C280C6
 P 3550 6500
 F 0 "FID4" H 3635 6500 50  0000 L CNN
 F 1 "Fiducial" H 3635 6455 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3550 6500 50  0001 C CNN
+F 2 "U_Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3550 6500 50  0001 C CNN
 F 3 "~" H 3550 6500 50  0001 C CNN
 	1    3550 6500
 	1    0    0    -1  
@@ -371,7 +371,7 @@ U 1 1 60C28406
 P 3950 6500
 F 0 "FID5" H 4035 6500 50  0000 L CNN
 F 1 "Fiducial" H 4035 6455 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3950 6500 50  0001 C CNN
+F 2 "U_Fiducial:Fiducial_0.5mm_Mask1.5mm" H 3950 6500 50  0001 C CNN
 F 3 "~" H 3950 6500 50  0001 C CNN
 	1    3950 6500
 	1    0    0    -1  
@@ -382,7 +382,7 @@ U 1 1 60C287D1
 P 4350 6500
 F 0 "FID6" H 4435 6500 50  0000 L CNN
 F 1 "Fiducial" H 4435 6455 50  0001 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Mask1.5mm" H 4350 6500 50  0001 C CNN
+F 2 "U_Fiducial:Fiducial_0.5mm_Mask1.5mm" H 4350 6500 50  0001 C CNN
 F 3 "~" H 4350 6500 50  0001 C CNN
 	1    4350 6500
 	1    0    0    -1  

@@ -7,4 +7,8 @@
   (lib (name U_Package_BGA)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Package_BGA.pretty)(options "")(descr ""))
   (lib (name U_Package_QFN)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Package_QFN.pretty)(options "")(descr ""))
   (lib (name U_Logos)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Logos.pretty)(options "")(descr ""))
+  (lib (name U_Capacitor_SMD)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Capacitor_SMD.pretty)(options "")(descr ""))
+  (lib (name U_Fiducial)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Fiducial.pretty)(options "")(descr ""))
+  (lib (name U_MountingHole)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_MountingHole.pretty)(options "")(descr ""))
+  (lib (name U_Resistor_SMD)(type KiCad)(uri ${KICAD_USER_SYM_DIR}/U_Resistor_SMD.pretty)(options "")(descr ""))
 )

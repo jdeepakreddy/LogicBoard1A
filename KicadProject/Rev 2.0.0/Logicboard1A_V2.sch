@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 3
 Title "MPU 12 X 12 TFBGA361"
 Date "2021-07-26"
 Rev "2.0.0"
@@ -1208,4 +1208,16 @@ Wire Notes Line
 	9300 6400 10950 6400
 Text Notes 10000 6350 2    50   ~ 0
 LOW SPEED CLOCK
+$Sheet
+S 12400 650  850  350 
+U 61091237
+F0 "MPU Memory" 50
+F1 "MPU Memory.sch" 50
+$EndSheet
+$Sheet
+S 12400 1300 850  350 
+U 610944F7
+F0 "MPU Power" 50
+F1 "MPU Power .sch" 50
+$EndSheet
 $EndSCHEMATC

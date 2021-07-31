@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 7
 Title "MPU 12 X 12 TFBGA361"
 Date "2021-07-31"
 Rev "2.0.0"
@@ -1225,5 +1225,23 @@ S 12450 1950 850  350
 U 6292E2C6
 F0 "ST PMIC" 50
 F1 "ST PMIC.sch" 50
+$EndSheet
+$Sheet
+S 12450 2600 900  450 
+U 61144F6B
+F0 "eMMC Flash" 50
+F1 "eMMC Flash.sch" 50
+$EndSheet
+$Sheet
+S 12450 3300 900  450 
+U 6114528C
+F0 "Wireless Module" 50
+F1 "Wireless Module.sch" 50
+$EndSheet
+$Sheet
+S 12500 4050 850  500 
+U 61147805
+F0 "Board to Board Connectors" 50
+F1 "Board to Board Connectors.sch" 50
 $EndSheet
 $EndSCHEMATC

@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "MPU 12 X 12 TFBGA361"
 Date "2021-07-31"
 Rev "2.0.0"
@@ -1219,5 +1219,11 @@ S 12400 1300 850  350
 U 610944F7
 F0 "MPU Power" 50
 F1 "MPU Power .sch" 50
+$EndSheet
+$Sheet
+S 12450 1950 850  350 
+U 6292E2C6
+F0 "ST PMIC" 50
+F1 "ST PMIC.sch" 50
 $EndSheet
 $EndSCHEMATC

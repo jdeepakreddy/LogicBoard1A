@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
 Title "MPU 12 X 12 TFBGA361"
-Date "2021-07-26"
+Date "2021-07-31"
 Rev "2.0.0"
 Comp "www.logicboards.org"
 Comment1 ""

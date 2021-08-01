@@ -402,13 +402,13 @@ Wire Wire Line
 Connection ~ 2500 4500
 Wire Wire Line
 	2500 4500 3150 4500
-Text GLabel 2650 4200 0    50   UnSpc ~ 0
-BT_USART2_RX
 Text GLabel 2650 4100 0    50   UnSpc ~ 0
+BT_USART2_RX
+Text GLabel 2650 4200 0    50   UnSpc ~ 0
 BT_USART2_TX
-Text GLabel 2650 4300 0    50   UnSpc ~ 0
-BT_USART2_RTS
 Text GLabel 2650 4400 0    50   UnSpc ~ 0
+BT_USART2_RTS
+Text GLabel 2650 4300 0    50   UnSpc ~ 0
 BT_USART2_CTS
 Wire Wire Line
 	2650 4100 3150 4100

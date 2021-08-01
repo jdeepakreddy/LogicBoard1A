@@ -217,13 +217,13 @@ DSI_TE
 Text GLabel 3400 2000 2    50   UnSpc ~ 0
 SDMMC2_D7
 Text GLabel 3400 2100 2    50   UnSpc ~ 0
-SDMMC1_0
+SDMMC1_D0
 Text GLabel 3400 2200 2    50   UnSpc ~ 0
-SDMMC1_1
+SDMMC1_D1
 Text GLabel 3400 2300 2    50   UnSpc ~ 0
-SDMMC1_2
+SDMMC1_D2
 Text GLabel 3400 2400 2    50   UnSpc ~ 0
-SDMMC1_3
+SDMMC1_D3
 Text GLabel 3400 2500 2    50   UnSpc ~ 0
 SDMMC1_CK
 Text GLabel 3400 2600 2    50   UnSpc ~ 0
@@ -362,11 +362,11 @@ Wire Wire Line
 Wire Wire Line
 	3400 5100 3200 5100
 Text GLabel 4850 1600 0    50   UnSpc ~ 0
-PE1
+PE0
 Text GLabel 4850 1700 0    50   UnSpc ~ 0
-PE2
+PE1
 Text GLabel 4850 1800 0    50   UnSpc ~ 0
-PE3
+PE2
 Text GLabel 4850 1900 0    50   UnSpc ~ 0
 SDMMC2_CK
 Text GLabel 4850 2000 0    50   UnSpc ~ 0

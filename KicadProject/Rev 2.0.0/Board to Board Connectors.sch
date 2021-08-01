@@ -119,84 +119,84 @@ $EndComp
 $Comp
 L U_Connector:DF40C-70DP-0.4V(51) U703
 U 1 1 6133514E
-P 8350 3450
-F 0 "U703" H 8350 5275 50  0000 C CNN
-F 1 "DF40C-70DP-0.4V(51)" H 8350 5184 50  0000 C CNN
-F 2 "" H 9500 4600 50  0001 C CNN
-F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf" H 9500 4600 50  0001 C CNN
-	1    8350 3450
+P 9200 3500
+F 0 "U703" H 9200 5325 50  0000 C CNN
+F 1 "DF40C-70DP-0.4V(51)" H 9200 5234 50  0000 C CNN
+F 2 "" H 10350 4650 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf" H 10350 4650 50  0001 C CNN
+	1    9200 3500
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8000 1850
-NoConn ~ 8000 1950
-NoConn ~ 8000 2050
-NoConn ~ 8000 2150
-NoConn ~ 8000 2250
-NoConn ~ 8000 2350
-NoConn ~ 8000 2450
-NoConn ~ 8000 2550
-NoConn ~ 8000 2650
-NoConn ~ 8000 2750
-NoConn ~ 8000 2850
-NoConn ~ 8000 2950
-NoConn ~ 8000 3050
-NoConn ~ 8000 3150
-NoConn ~ 8000 3250
-NoConn ~ 8000 3350
-NoConn ~ 8000 3450
-NoConn ~ 8000 3550
-NoConn ~ 8000 3650
-NoConn ~ 8000 3750
-NoConn ~ 8000 3850
-NoConn ~ 8000 3950
-NoConn ~ 8000 4050
-NoConn ~ 8000 4150
-NoConn ~ 8000 4250
-NoConn ~ 8000 4350
-NoConn ~ 8000 4450
-NoConn ~ 8000 4550
-NoConn ~ 8000 4650
-NoConn ~ 8000 4750
-NoConn ~ 8000 4850
-NoConn ~ 8000 4950
-NoConn ~ 8000 5050
-NoConn ~ 8000 5150
-NoConn ~ 8000 5250
-NoConn ~ 8700 1850
-NoConn ~ 8700 1950
-NoConn ~ 8700 2050
-NoConn ~ 8700 2150
-NoConn ~ 8700 2250
-NoConn ~ 8700 2350
-NoConn ~ 8700 2450
-NoConn ~ 8700 2550
-NoConn ~ 8700 2650
-NoConn ~ 8700 2750
-NoConn ~ 8700 2850
-NoConn ~ 8700 2950
-NoConn ~ 8700 3050
-NoConn ~ 8700 3150
-NoConn ~ 8700 3250
-NoConn ~ 8700 3350
-NoConn ~ 8700 3450
-NoConn ~ 8700 3550
-NoConn ~ 8700 3650
-NoConn ~ 8700 3750
-NoConn ~ 8700 3850
-NoConn ~ 8700 3950
-NoConn ~ 8700 4050
-NoConn ~ 8700 4150
-NoConn ~ 8700 4250
-NoConn ~ 8700 4350
-NoConn ~ 8700 4450
-NoConn ~ 8700 4550
-NoConn ~ 8700 4650
-NoConn ~ 8700 4750
-NoConn ~ 8700 4850
-NoConn ~ 8700 4950
-NoConn ~ 8700 5050
-NoConn ~ 8700 5150
-NoConn ~ 8700 5250
+NoConn ~ 8850 1900
+NoConn ~ 8850 2000
+NoConn ~ 8850 2100
+NoConn ~ 8850 2200
+NoConn ~ 8850 2300
+NoConn ~ 8850 2400
+NoConn ~ 8850 2500
+NoConn ~ 8850 2600
+NoConn ~ 8850 2700
+NoConn ~ 8850 2800
+NoConn ~ 8850 2900
+NoConn ~ 8850 3000
+NoConn ~ 8850 3100
+NoConn ~ 8850 3200
+NoConn ~ 8850 3300
+NoConn ~ 8850 3400
+NoConn ~ 8850 3500
+NoConn ~ 8850 3600
+NoConn ~ 8850 3700
+NoConn ~ 8850 3800
+NoConn ~ 8850 3900
+NoConn ~ 8850 4000
+NoConn ~ 8850 4100
+NoConn ~ 8850 4200
+NoConn ~ 8850 4300
+NoConn ~ 8850 4400
+NoConn ~ 8850 4500
+NoConn ~ 8850 4600
+NoConn ~ 8850 4700
+NoConn ~ 8850 4800
+NoConn ~ 8850 4900
+NoConn ~ 8850 5000
+NoConn ~ 8850 5100
+NoConn ~ 8850 5200
+NoConn ~ 8850 5300
+NoConn ~ 9550 1900
+NoConn ~ 9550 2000
+NoConn ~ 9550 2100
+NoConn ~ 9550 2200
+NoConn ~ 9550 2300
+NoConn ~ 9550 2400
+NoConn ~ 9550 2500
+NoConn ~ 9550 2600
+NoConn ~ 9550 2700
+NoConn ~ 9550 2800
+NoConn ~ 9550 2900
+NoConn ~ 9550 3000
+NoConn ~ 9550 3100
+NoConn ~ 9550 3200
+NoConn ~ 9550 3300
+NoConn ~ 9550 3400
+NoConn ~ 9550 3500
+NoConn ~ 9550 3600
+NoConn ~ 9550 3700
+NoConn ~ 9550 3800
+NoConn ~ 9550 3900
+NoConn ~ 9550 4000
+NoConn ~ 9550 4100
+NoConn ~ 9550 4200
+NoConn ~ 9550 4300
+NoConn ~ 9550 4400
+NoConn ~ 9550 4500
+NoConn ~ 9550 4600
+NoConn ~ 9550 4700
+NoConn ~ 9550 4800
+NoConn ~ 9550 4900
+NoConn ~ 9550 5000
+NoConn ~ 9550 5100
+NoConn ~ 9550 5200
+NoConn ~ 9550 5300
 Text GLabel 3050 1850 0    50   UnSpc ~ 0
 PA1
 Text GLabel 3050 1950 0    50   UnSpc ~ 0
@@ -302,11 +302,11 @@ JTDO_TRACESWO
 Text GLabel 4250 4050 2    50   UnSpc ~ 0
 JTRST
 Text GLabel 4250 3250 2    50   UnSpc ~ 0
-PE1
+PE0
 Text GLabel 4250 3350 2    50   UnSpc ~ 0
-PE2
+PE1
 Text GLabel 4250 3450 2    50   UnSpc ~ 0
-PE3
+PE2
 Text GLabel 4250 3550 2    50   UnSpc ~ 0
 DSI_RESET
 Text GLabel 4250 2350 2    50   UnSpc ~ 0
@@ -725,13 +725,13 @@ Wire Wire Line
 Wire Wire Line
 	7000 4250 6750 4250
 Text GLabel 7000 4350 2    50   UnSpc ~ 0
-SDMMC1_0
+SDMMC1_D0
 Text GLabel 7000 4450 2    50   UnSpc ~ 0
-SDMMC1_1
+SDMMC1_D1
 Text GLabel 7000 4550 2    50   UnSpc ~ 0
-SDMMC1_2
+SDMMC1_D2
 Text GLabel 7000 4650 2    50   UnSpc ~ 0
-SDMMC1_3
+SDMMC1_D3
 Text GLabel 7000 4750 2    50   UnSpc ~ 0
 SDMMC1_CK
 Text GLabel 7000 4850 2    50   UnSpc ~ 0

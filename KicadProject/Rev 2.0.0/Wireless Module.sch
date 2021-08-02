@@ -101,14 +101,10 @@ Wire Wire Line
 	3050 5800 3050 5700
 Wire Wire Line
 	3150 6000 3050 6000
-Connection ~ 3050 6000
 Wire Wire Line
 	3050 6000 3050 5800
 Wire Wire Line
 	3150 6200 3050 6200
-Connection ~ 3050 6200
-Wire Wire Line
-	3050 6200 3050 6000
 Wire Wire Line
 	3150 6300 3050 6300
 Connection ~ 3050 6300
@@ -647,14 +643,8 @@ Text GLabel 2650 5900 0    50   UnSpc ~ 0
 BT_RF_OUT
 Wire Wire Line
 	2650 5900 3150 5900
-Text GLabel 2650 6100 0    50   UnSpc ~ 0
-BT_RF_IN
-Wire Wire Line
-	2650 6100 3150 6100
 Text GLabel 8550 1300 0    50   UnSpc ~ 0
 BT_RF_OUT
-Text GLabel 8500 2050 0    50   UnSpc ~ 0
-BT_RF_IN
 Wire Notes Line
 	5650 1250 5650 1900
 Text Notes 5850 1200 0    50   ~ 0
@@ -819,21 +809,6 @@ Wire Wire Line
 	6200 1500 6550 1500
 Connection ~ 6200 1500
 $Comp
-L power:GND #PWR0608
-U 1 1 611B11BC
-P 8650 2100
-F 0 "#PWR0608" H 8650 1850 50  0001 C CNN
-F 1 "GND" H 8655 1927 50  0001 C CNN
-F 2 "" H 8650 2100 50  0001 C CNN
-F 3 "" H 8650 2100 50  0001 C CNN
-	1    8650 2100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8650 2100 8650 2050
-Wire Wire Line
-	8650 2050 8500 2050
-$Comp
 L U_Connector:2337019-1 J601
 U 1 1 611EFDA5
 P 10050 1350
@@ -941,4 +916,23 @@ Wire Wire Line
 Connection ~ 2700 3600
 Wire Wire Line
 	2700 3600 3150 3600
+Wire Wire Line
+	3050 6000 3050 6200
+Connection ~ 3050 6000
+Connection ~ 3050 6200
+$Comp
+L power:GND #PWR?
+U 1 1 610DF44E
+P 2800 6150
+F 0 "#PWR?" H 2800 5900 50  0001 C CNN
+F 1 "GND" H 2805 5977 50  0001 C CNN
+F 2 "" H 2800 6150 50  0001 C CNN
+F 3 "" H 2800 6150 50  0001 C CNN
+	1    2800 6150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 6150 2800 6100
+Wire Wire Line
+	2800 6100 3150 6100
 $EndSCHEMATC

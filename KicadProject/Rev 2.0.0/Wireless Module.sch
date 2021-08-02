@@ -307,30 +307,18 @@ F 3 "" H 2650 2550 50  0001 C CNN
 	1    2650 2550
 	1    0    0    -1  
 $EndComp
-Text GLabel 2650 3100 0    50   UnSpc ~ 0
+Text GLabel 1150 3100 0    50   UnSpc ~ 0
 SDMMC3_D2
-Text GLabel 2650 3200 0    50   UnSpc ~ 0
+Text GLabel 1150 3200 0    50   UnSpc ~ 0
 SDMMC3_D1
-Text GLabel 2650 3300 0    50   UnSpc ~ 0
+Text GLabel 1150 3300 0    50   UnSpc ~ 0
 SDMMC3_D0
-Text GLabel 2650 3400 0    50   UnSpc ~ 0
+Text GLabel 1150 3400 0    50   UnSpc ~ 0
 SDMMC3_CK
-Text GLabel 2650 3500 0    50   UnSpc ~ 0
+Text GLabel 1150 3500 0    50   UnSpc ~ 0
 SDMMC3_D3
-Wire Wire Line
-	2650 3100 3150 3100
-Wire Wire Line
-	2650 3200 3150 3200
-Wire Wire Line
-	2650 3300 3150 3300
-Wire Wire Line
-	2650 3400 3150 3400
-Wire Wire Line
-	2650 3500 3150 3500
-Text GLabel 2650 3600 0    50   UnSpc ~ 0
+Text GLabel 1150 3600 0    50   UnSpc ~ 0
 SDMMC3_CMD
-Wire Wire Line
-	2650 3600 3150 3600
 Text GLabel 2650 3800 0    50   UnSpc ~ 0
 VDDOUT_VDDIO
 Wire Wire Line
@@ -867,4 +855,131 @@ Wire Notes Line
 	8600 1900 9750 1900
 Text Notes 9100 2000 0    50   ~ 0
 Tuning
+$Comp
+L Device:R_Small_US R?
+U 1 1 610C7688
+P 1400 2950
+F 0 "R?" H 1468 2996 50  0000 L CNN
+F 1 "10k" H 1468 2905 50  0000 L CNN
+F 2 "" H 1400 2950 50  0001 C CNN
+F 3 "~" H 1400 2950 50  0001 C CNN
+	1    1400 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3100 1400 3100
+Wire Wire Line
+	1150 3200 1700 3200
+Wire Wire Line
+	1150 3300 2000 3300
+Wire Wire Line
+	1150 3400 3150 3400
+Wire Wire Line
+	1150 3500 2300 3500
+Wire Wire Line
+	1150 3600 2600 3600
+$Comp
+L Device:R_Small_US R?
+U 1 1 610F56B1
+P 1700 2950
+F 0 "R?" H 1768 2996 50  0000 L CNN
+F 1 "10k" H 1768 2905 50  0000 L CNN
+F 2 "" H 1700 2950 50  0001 C CNN
+F 3 "~" H 1700 2950 50  0001 C CNN
+	1    1700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 610F5BDE
+P 2000 2950
+F 0 "R?" H 2068 2996 50  0000 L CNN
+F 1 "10k" H 2068 2905 50  0000 L CNN
+F 2 "" H 2000 2950 50  0001 C CNN
+F 3 "~" H 2000 2950 50  0001 C CNN
+	1    2000 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 610F6045
+P 2300 2950
+F 0 "R?" H 2368 2996 50  0000 L CNN
+F 1 "10k" H 2368 2905 50  0000 L CNN
+F 2 "" H 2300 2950 50  0001 C CNN
+F 3 "~" H 2300 2950 50  0001 C CNN
+	1    2300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small_US R?
+U 1 1 610F64FB
+P 2600 2950
+F 0 "R?" H 2668 2996 50  0000 L CNN
+F 1 "10k" H 2668 2905 50  0000 L CNN
+F 2 "" H 2600 2950 50  0001 C CNN
+F 3 "~" H 2600 2950 50  0001 C CNN
+	1    2600 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 3050 1400 3100
+Connection ~ 1400 3100
+Wire Wire Line
+	1400 3100 3150 3100
+Wire Wire Line
+	1700 3050 1700 3200
+Connection ~ 1700 3200
+Wire Wire Line
+	1700 3200 3150 3200
+Wire Wire Line
+	2000 3050 2000 3300
+Connection ~ 2000 3300
+Wire Wire Line
+	2000 3300 3150 3300
+Wire Wire Line
+	2300 3050 2300 3500
+Connection ~ 2300 3500
+Wire Wire Line
+	2300 3500 3150 3500
+Wire Wire Line
+	2600 3050 2600 3600
+Connection ~ 2600 3600
+Wire Wire Line
+	2600 3600 3150 3600
+$Comp
+L U_Power:PMIC_LDO1_1V8 #PWR?
+U 1 1 611176E1
+P 1400 2750
+F 0 "#PWR?" H 1400 2600 50  0001 C CNN
+F 1 "PMIC_LDO1_1V8" H 1100 2900 50  0000 L CNN
+F 2 "" H 1400 2750 50  0001 C CNN
+F 3 "" H 1400 2750 50  0001 C CNN
+	1    1400 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2750 1400 2800
+Wire Wire Line
+	1700 2850 1700 2800
+Wire Wire Line
+	1700 2800 1400 2800
+Connection ~ 1400 2800
+Wire Wire Line
+	1400 2800 1400 2850
+Wire Wire Line
+	2000 2850 2000 2800
+Wire Wire Line
+	2000 2800 1700 2800
+Connection ~ 1700 2800
+Wire Wire Line
+	2300 2850 2300 2800
+Wire Wire Line
+	2300 2800 2000 2800
+Connection ~ 2000 2800
+Wire Wire Line
+	2600 2850 2600 2800
+Wire Wire Line
+	2600 2800 2300 2800
+Connection ~ 2300 2800
 $EndSCHEMATC

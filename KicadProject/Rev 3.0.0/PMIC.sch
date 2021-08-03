@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 7
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Power Management "
+Date "2021-08-03"
+Rev "3.0.0"
+Comp "www.logicboards.org"
 Comment1 ""
 Comment2 ""
 Comment3 ""

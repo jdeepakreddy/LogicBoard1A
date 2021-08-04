@@ -14,62 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:R_Small_US R102
-U 1 1 615E80C0
-P 5400 5700
-F 0 "R102" V 5350 5550 50  0000 C CNN
-F 1 "1k5" V 5350 5800 50  0000 C CNN
-F 2 "U_Resistor_SMD:R_0402_1005Metric" H 5400 5700 50  0001 C CNN
-F 3 "~" H 5400 5700 50  0001 C CNN
-	1    5400 5700
-	0    1    1    0   
-$EndComp
-Text GLabel 5700 5700 2    50   UnSpc ~ 0
-I2C1_SCL
-Wire Wire Line
-	5700 5700 5500 5700
-$Comp
-L U_Power:PMIC_VOUT3_VDD #PWR0103
-U 1 1 615F549A
-P 5150 5700
-F 0 "#PWR0103" H 5150 5550 50  0001 C CNN
-F 1 "PMIC_VOUT3_VDD" V 5165 5827 50  0000 L CNN
-F 2 "" H 5150 5700 50  0001 C CNN
-F 3 "" H 5150 5700 50  0001 C CNN
-	1    5150 5700
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5150 5700 5300 5700
-$Comp
-L Device:R_Small_US R103
-U 1 1 61605C9E
-P 5400 5850
-F 0 "R103" V 5350 5700 50  0000 C CNN
-F 1 "1k5" V 5350 5950 50  0000 C CNN
-F 2 "U_Resistor_SMD:R_0402_1005Metric" H 5400 5850 50  0001 C CNN
-F 3 "~" H 5400 5850 50  0001 C CNN
-	1    5400 5850
-	0    1    1    0   
-$EndComp
-Text GLabel 5700 5850 2    50   UnSpc ~ 0
-I2C1_SDA
-Wire Wire Line
-	5700 5850 5500 5850
-$Comp
-L U_Power:PMIC_VOUT3_VDD #PWR0104
-U 1 1 61605CA6
-P 5150 5850
-F 0 "#PWR0104" H 5150 5700 50  0001 C CNN
-F 1 "PMIC_VOUT3_VDD" V 5165 5977 50  0000 L CNN
-F 2 "" H 5150 5850 50  0001 C CNN
-F 3 "" H 5150 5850 50  0001 C CNN
-	1    5150 5850
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	5150 5850 5300 5850
-$Comp
 L Device:R_Small_US R104
 U 1 1 61616571
 P 5400 6000
@@ -390,20 +334,10 @@ Wire Wire Line
 	6800 4400 6600 4400
 Wire Wire Line
 	6800 4300 6600 4300
-Text GLabel 6800 4500 2    50   UnSpc ~ 0
-PH15
-Text GLabel 6800 4400 2    50   UnSpc ~ 0
-PH14
-Text GLabel 6800 4300 2    50   UnSpc ~ 0
-PH13
 Wire Wire Line
 	5000 4400 4800 4400
 Wire Wire Line
 	5000 4300 4800 4300
-Text GLabel 4800 4400 0    50   UnSpc ~ 0
-PF14
-Text GLabel 4800 4300 0    50   UnSpc ~ 0
-PF13
 Wire Wire Line
 	3350 4800 3150 4800
 Wire Wire Line
@@ -661,19 +595,9 @@ BT_PCM_SDI
 Text GLabel 10450 2650 2    50   UnSpc ~ 0
 BT_PCM_CLK
 Text GLabel 8300 2150 0    50   UnSpc ~ 0
-STUSB1600_IRQOUTn
+PI11
 Text GLabel 8300 1950 0    50   UnSpc ~ 0
 PI9
-Text GLabel 8300 1750 0    50   UnSpc ~ 0
-PI7
-Text GLabel 8300 1650 0    50   UnSpc ~ 0
-PI6
-Text GLabel 8300 1550 0    50   UnSpc ~ 0
-PI5
-Text GLabel 8300 1450 0    50   UnSpc ~ 0
-PI4
-Text GLabel 8300 1350 0    50   UnSpc ~ 0
-PI3
 Text GLabel 8300 1250 0    50   UnSpc ~ 0
 PI2
 Text GLabel 8300 1150 0    50   UnSpc ~ 0
@@ -696,16 +620,6 @@ Wire Wire Line
 	6800 3500 6600 3500
 Wire Wire Line
 	6800 3400 6600 3400
-Text GLabel 6800 4200 2    50   UnSpc ~ 0
-PH12
-Text GLabel 6800 4000 2    50   UnSpc ~ 0
-PH10
-Text GLabel 6800 3900 2    50   UnSpc ~ 0
-PH9
-Text GLabel 6800 3800 2    50   UnSpc ~ 0
-PH8
-Text GLabel 6800 3700 2    50   UnSpc ~ 0
-PH7
 Text GLabel 6800 3600 2    50   UnSpc ~ 0
 PH6
 Text GLabel 6800 3500 2    50   UnSpc ~ 0
@@ -781,7 +695,7 @@ PG3
 Text GLabel 6800 1500 2    50   UnSpc ~ 0
 PG2
 Text GLabel 6800 1400 2    50   UnSpc ~ 0
-uSD_DETECT
+PG1
 Text GLabel 6800 1300 2    50   UnSpc ~ 0
 PG0
 Wire Wire Line
@@ -817,7 +731,7 @@ Wire Wire Line
 Wire Wire Line
 	5000 2500 4800 2500
 Wire Wire Line
-	5000 2400 4800 2400
+	3150 4200 3350 4200
 Wire Wire Line
 	5000 2300 4800 2300
 Wire Wire Line
@@ -838,62 +752,8 @@ Wire Wire Line
 	5000 1400 4800 1400
 Wire Wire Line
 	5000 1300 4800 1300
-Text GLabel 4800 4200 0    50   UnSpc ~ 0
-PF12
-Text GLabel 4800 4100 0    50   UnSpc ~ 0
-PF11
-Text GLabel 4800 4000 0    50   UnSpc ~ 0
-PF10
-Text GLabel 4800 3900 0    50   UnSpc ~ 0
-PF9
-Text GLabel 4800 3700 0    50   UnSpc ~ 0
-PF7
-Text GLabel 4800 3600 0    50   UnSpc ~ 0
-PF6
-Text GLabel 4800 3500 0    50   UnSpc ~ 0
-SDMMC3_D2
-Text GLabel 4800 3400 0    50   UnSpc ~ 0
-SDMMC3_D1
-Text GLabel 4800 3300 0    50   UnSpc ~ 0
-PF3
-Text GLabel 4800 3200 0    50   UnSpc ~ 0
-DSI_LCD_INT
-Text GLabel 4800 3100 0    50   UnSpc ~ 0
-SDMMC3_CMD
-Text GLabel 4800 3000 0    50   UnSpc ~ 0
-SDMMC3_D0
-Text GLabel 4800 2800 0    50   UnSpc ~ 0
-PE15
-Text GLabel 4800 2700 0    50   UnSpc ~ 0
-PE14
-Text GLabel 4800 2600 0    50   UnSpc ~ 0
-PE13
-Text GLabel 4800 2500 0    50   UnSpc ~ 0
-PE12
-Text GLabel 4800 2400 0    50   UnSpc ~ 0
+Text GLabel 3350 4200 2    50   UnSpc ~ 0
 WL_HOST_WAKE
-Text GLabel 4800 2300 0    50   UnSpc ~ 0
-PE10
-Text GLabel 4800 2200 0    50   UnSpc ~ 0
-PE9
-Text GLabel 4800 2100 0    50   UnSpc ~ 0
-PE8
-Text GLabel 4800 2000 0    50   UnSpc ~ 0
-PE7
-Text GLabel 4800 1900 0    50   UnSpc ~ 0
-PE6
-Text GLabel 4800 1800 0    50   UnSpc ~ 0
-SDMMC2_D6
-Text GLabel 4800 1600 0    50   UnSpc ~ 0
-SDMMC2_CK
-Text GLabel 4800 1500 0    50   UnSpc ~ 0
-PE2
-Text GLabel 4800 1400 0    50   UnSpc ~ 0
-PE1
-Text GLabel 4800 1300 0    50   UnSpc ~ 0
-PE0
-Wire Wire Line
-	3350 4200 3150 4200
 Wire Wire Line
 	3350 4100 3150 4100
 Wire Wire Line
@@ -913,7 +773,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 3700 1300 3700
 Wire Wire Line
-	6800 2100 6600 2100
+	3350 3900 3150 3900
 Wire Wire Line
 	8300 2050 8500 2050
 Wire Wire Line
@@ -922,12 +782,10 @@ Wire Wire Line
 	3350 2800 3150 2800
 Wire Wire Line
 	3350 2700 3150 2700
-Text GLabel 3350 4200 2    50   UnSpc ~ 0
-PD15
 Text GLabel 3350 4100 2    50   UnSpc ~ 0
 PD14
 Text GLabel 3350 4000 2    50   UnSpc ~ 0
-DSI_BL_CTRL
+PD13
 Text GLabel 3350 3800 2    50   UnSpc ~ 0
 PD11
 Text GLabel 3350 3700 2    50   UnSpc ~ 0
@@ -942,7 +800,7 @@ Text GLabel 1100 3900 0    50   UnSpc ~ 0
 BT_USART3_RX
 Text GLabel 1100 3700 0    50   UnSpc ~ 0
 BT_USART3_TX
-Text GLabel 6800 2100 2    50   UnSpc ~ 0
+Text GLabel 3350 3900 2    50   UnSpc ~ 0
 BT_USART3_RTS
 Text GLabel 8300 2050 0    50   UnSpc ~ 0
 BT_USART3_CTS
@@ -1016,7 +874,7 @@ SDMMC1_D0
 Text GLabel 3350 3000 2    50   UnSpc ~ 0
 SDMMC2_D7
 Text GLabel 3350 1600 2    50   UnSpc ~ 0
-DSI_TE
+PC6
 Text GLabel 3350 1500 2    50   UnSpc ~ 0
 PC5
 Text GLabel 3350 1400 2    50   UnSpc ~ 0
@@ -1133,18 +991,12 @@ Text GLabel 1100 1400 0    50   UnSpc ~ 0
 PA4
 Text GLabel 1100 1300 0    50   UnSpc ~ 0
 PA3
-Text GLabel 1100 1200 0    50   UnSpc ~ 0
-PA2
-Text GLabel 1100 1100 0    50   UnSpc ~ 0
-PA1
 Wire Wire Line
 	1100 1000 1300 1000
 Text GLabel 1100 1000 0    50   UnSpc ~ 0
 PA0_WAKEUP
 Wire Wire Line
 	1300 3500 1100 3500
-Text GLabel 1100 3500 0    50   UnSpc ~ 0
-PB8
 Wire Wire Line
 	3350 1700 3150 1700
 Text GLabel 3350 1700 2    50   UnSpc ~ 0
@@ -1172,8 +1024,6 @@ F 3 "https://www.st.com/resource/en/datasheet/stm32mp157c.pdf" H 8950 5200 60  0
 	3    9350 3050
 	1    0    0    -1  
 $EndComp
-Text GLabel 4800 3800 0    50   UnSpc ~ 0
-LPO_32
 Wire Wire Line
 	4800 3800 5000 3800
 Text GLabel 1100 3600 0    50   UnSpc ~ 0
@@ -1184,8 +1034,6 @@ Text GLabel 10450 3150 2    50   UnSpc ~ 0
 I2C4_SDA
 Wire Wire Line
 	10450 3150 10250 3150
-Text GLabel 6800 4100 2    50   UnSpc ~ 0
-PH11
 Wire Wire Line
 	6800 4100 6600 4100
 Text GLabel 10450 3050 2    50   UnSpc ~ 0
@@ -1198,8 +1046,6 @@ Text GLabel 8300 1850 0    50   UnSpc ~ 0
 PI8
 Wire Wire Line
 	8300 2250 8500 2250
-Text GLabel 8300 2250 0    50   UnSpc ~ 0
-PI12
 Text GLabel 8300 2350 0    50   UnSpc ~ 0
 PI13
 Text GLabel 8300 2450 0    50   UnSpc ~ 0
@@ -1308,16 +1154,8 @@ Wire Wire Line
 	10450 2350 10250 2350
 Wire Wire Line
 	10450 2450 10250 2450
-Text GLabel 3350 3900 2    50   UnSpc ~ 0
-PD12
-Wire Wire Line
-	3350 3900 3150 3900
-Text GLabel 4800 1700 0    50   UnSpc ~ 0
-PE4
 Wire Wire Line
 	5000 1700 4800 1700
-Text GLabel 4800 4500 0    50   UnSpc ~ 0
-DSI_RESET
 Wire Wire Line
 	5000 4500 4800 4500
 $Sheet
@@ -1356,4 +1194,110 @@ U 611702DE
 F0 "BOARD_TO_BOARD_CONNECTORS" 50
 F1 "BOARD_TO_BOARD_CONNECTORS.sch" 50
 $EndSheet
+Text GLabel 1100 1200 0    50   UnSpc ~ 0
+PA2
+Text GLabel 1100 1100 0    50   UnSpc ~ 0
+PA1
+Text GLabel 8300 2250 0    50   UnSpc ~ 0
+PI12
+Text GLabel 1100 3500 0    50   UnSpc ~ 0
+PB8
+Text GLabel 6800 3700 2    50   UnSpc ~ 0
+PH7
+Text GLabel 6800 3800 2    50   UnSpc ~ 0
+PH8
+Text GLabel 6800 3900 2    50   UnSpc ~ 0
+PH9
+Text GLabel 6800 4000 2    50   UnSpc ~ 0
+PH10
+Text GLabel 6800 4100 2    50   UnSpc ~ 0
+PH11
+Text GLabel 6800 4200 2    50   UnSpc ~ 0
+PH12
+Text GLabel 6800 4300 2    50   UnSpc ~ 0
+PH13
+Text GLabel 6800 4400 2    50   UnSpc ~ 0
+PH14
+Text GLabel 6800 4500 2    50   UnSpc ~ 0
+PH15
+Text GLabel 8300 1350 0    50   UnSpc ~ 0
+PI3
+Text GLabel 8300 1450 0    50   UnSpc ~ 0
+PI4
+Text GLabel 8300 1550 0    50   UnSpc ~ 0
+PI5
+Text GLabel 8300 1650 0    50   UnSpc ~ 0
+PI6
+Text GLabel 8300 1750 0    50   UnSpc ~ 0
+PI7
+Wire Wire Line
+	5000 2400 4800 2400
+Wire Wire Line
+	6600 2100 6800 2100
+Text GLabel 6800 2100 2    50   UnSpc ~ 0
+PG8
+Text GLabel 4800 2400 0    50   UnSpc ~ 0
+PE11
+Text GLabel 4800 4500 0    50   UnSpc ~ 0
+PF15
+Text GLabel 4800 1700 0    50   UnSpc ~ 0
+PE4
+Text GLabel 4800 3800 0    50   UnSpc ~ 0
+LPO_32
+Text GLabel 4800 1300 0    50   UnSpc ~ 0
+PE0
+Text GLabel 4800 1400 0    50   UnSpc ~ 0
+PE1
+Text GLabel 4800 1500 0    50   UnSpc ~ 0
+PE2
+Text GLabel 4800 1600 0    50   UnSpc ~ 0
+SDMMC2_CK
+Text GLabel 4800 1800 0    50   UnSpc ~ 0
+SDMMC2_D6
+Text GLabel 4800 1900 0    50   UnSpc ~ 0
+PE6
+Text GLabel 4800 2000 0    50   UnSpc ~ 0
+PE7
+Text GLabel 4800 2100 0    50   UnSpc ~ 0
+PE8
+Text GLabel 4800 2200 0    50   UnSpc ~ 0
+PE9
+Text GLabel 4800 2300 0    50   UnSpc ~ 0
+PE10
+Text GLabel 4800 2500 0    50   UnSpc ~ 0
+PE12
+Text GLabel 4800 2600 0    50   UnSpc ~ 0
+PE13
+Text GLabel 4800 2700 0    50   UnSpc ~ 0
+PE14
+Text GLabel 4800 2800 0    50   UnSpc ~ 0
+PE15
+Text GLabel 4800 3000 0    50   UnSpc ~ 0
+SDMMC3_D0
+Text GLabel 4800 3100 0    50   UnSpc ~ 0
+SDMMC3_CMD
+Text GLabel 4800 3200 0    50   UnSpc ~ 0
+PF2
+Text GLabel 4800 3300 0    50   UnSpc ~ 0
+PF3
+Text GLabel 4800 3400 0    50   UnSpc ~ 0
+SDMMC3_D1
+Text GLabel 4800 3500 0    50   UnSpc ~ 0
+SDMMC3_D2
+Text GLabel 4800 3600 0    50   UnSpc ~ 0
+PF6
+Text GLabel 4800 3700 0    50   UnSpc ~ 0
+PF7
+Text GLabel 4800 3900 0    50   UnSpc ~ 0
+PF9
+Text GLabel 4800 4000 0    50   UnSpc ~ 0
+PF10
+Text GLabel 4800 4100 0    50   UnSpc ~ 0
+PF11
+Text GLabel 4800 4200 0    50   UnSpc ~ 0
+PF12
+Text GLabel 4800 4300 0    50   UnSpc ~ 0
+PF13
+Text GLabel 4800 4400 0    50   UnSpc ~ 0
+PF14
 $EndSCHEMATC

@@ -2789,8 +2789,8 @@
     )
   )
 
-  (module U_Package_QFN:STPMIC1BPQR (layer L1_Sig_Pwr.Cu) (tedit 60ECFA4F) (tstamp 610A657C)
-    (at 110.75 103 270)
+  (module U_Package_QFN:STPMIC1BPQR (layer L1_Sig_Pwr.Cu) (tedit 60ECFA4F) (tstamp 610C2B5D)
+    (at 113.75 103 270)
     (descr STPMIC1)
     (tags "Integrated Circuit")
     (path /611679C4/629366F1)
@@ -5809,8 +5809,8 @@
     )
   )
 
-  (module U_Inductor_SMD:MGV2520101R0M-10 (layer L1_Sig_Pwr.Cu) (tedit 60E6D072) (tstamp 610A6070)
-    (at 107.9 96.2 90)
+  (module U_Inductor_SMD:MGV2520101R0M-10 (layer L1_Sig_Pwr.Cu) (tedit 60E6D072) (tstamp 610C2BDD)
+    (at 110.9 96.2 90)
     (path /611679C4/62998EDE)
     (fp_text reference L402 (at 0.382 -1.9064 90) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.09)))
@@ -5836,8 +5836,8 @@
     )
   )
 
-  (module U_Inductor_SMD:MGV2520101R0M-10 (layer L1_Sig_Pwr.Cu) (tedit 60E6D072) (tstamp 610A6065)
-    (at 112.6 97.5)
+  (module U_Inductor_SMD:MGV2520101R0M-10 (layer L1_Sig_Pwr.Cu) (tedit 60E6D072) (tstamp 610C2BFB)
+    (at 115.6 97.5)
     (path /611679C4/62988FE5)
     (fp_text reference L401 (at 0.382 -1.9064) (layer F.SilkS) hide
       (effects (font (size 0.6 0.6) (thickness 0.09)))
@@ -6485,8 +6485,8 @@
     )
   )
 
-  (module U_Capacitor_SMD:C_0603_1608Metric (layer L1_Sig_Pwr.Cu) (tedit 60ECF664) (tstamp 610A5F6A)
-    (at 105.8 96.1 270)
+  (module U_Capacitor_SMD:C_0603_1608Metric (layer L1_Sig_Pwr.Cu) (tedit 60ECF664) (tstamp 610C2C37)
+    (at 108.8 96.1 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /611679C4/629D3C30)
@@ -6515,8 +6515,8 @@
     )
   )
 
-  (module U_Capacitor_SMD:C_0603_1608Metric (layer L1_Sig_Pwr.Cu) (tedit 60ECF664) (tstamp 610A5F5F)
-    (at 112.8 95.4 180)
+  (module U_Capacitor_SMD:C_0603_1608Metric (layer L1_Sig_Pwr.Cu) (tedit 60ECF664) (tstamp 610C2C55)
+    (at 115.8 95.4 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /611679C4/629B4EE9)
@@ -6995,8 +6995,8 @@
     )
   )
 
-  (module U_Capacitor_SMD:C_0603_1608Metric (layer L1_Sig_Pwr.Cu) (tedit 60ECF664) (tstamp 610A5EAF)
-    (at 106.4 98.7 180)
+  (module U_Capacitor_SMD:C_0603_1608Metric (layer L1_Sig_Pwr.Cu) (tedit 60ECF664) (tstamp 610C2C19)
+    (at 109.4 98.7 180)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /611679C4/62A4C805)
@@ -7025,8 +7025,8 @@
     )
   )
 
-  (module U_Capacitor_SMD:C_0603_1608Metric (layer L1_Sig_Pwr.Cu) (tedit 60ECF664) (tstamp 610A5EA4)
-    (at 110.1 98 90)
+  (module U_Capacitor_SMD:C_0603_1608Metric (layer L1_Sig_Pwr.Cu) (tedit 60ECF664) (tstamp 610C2C73)
+    (at 113.1 98 90)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /611679C4/62A4E06F)

@@ -1,4 +1,4 @@
-update=8/4/2021 10:04:07 PM
+update=8/7/2021 4:13:49 PM
 version=1
 last_client=kicad
 [general]
@@ -12,12 +12,22 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/kicad_library/page_layout/A4_Custom_Sch_Sheet.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=/home/deepak/workspaces/kicad_library/page_layout/A4_Custom_Sch_Sheet.kicad_wks
 LastNetListRead=
 CopperLayerCount=6
-BoardThickness=1.6
+BoardThickness=1.2
 AllowMicroVias=0
 AllowBlindVias=0
 RequireCourtyardDefinitions=0
@@ -245,13 +255,3 @@ uViaDrill=0.1
 dPairWidth=0.1
 dPairGap=0.127
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=D:/kicad_library/page_layout/A4_Custom_Sch_Sheet.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

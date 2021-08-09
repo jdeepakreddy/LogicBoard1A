@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L U_Connector:DF40C-100DP-0.4V(51) U701
-U 1 1 6495FE26
-P 4050 3400
-F 0 "U701" H 4050 5975 50  0000 C CNN
-F 1 "DF40C-100DP-0.4V(51)" H 4050 5884 50  0000 C CNN
-F 2 "U_Connector:DF40C100DP04V51" H 5200 4550 50  0001 C CNN
-F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0684_4032_1_51_2d-1613464.pdf" H 5200 4550 50  0001 C CNN
-	1    4050 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L U_Connector:DF40C-100DP-0.4V(51) U702
 U 1 1 64961BFD
 P 6250 3400
@@ -159,78 +148,78 @@ Wire Wire Line
 Wire Wire Line
 	6800 2950 6600 2950
 Wire Wire Line
-	9350 4300 9150 4300
+	8850 3950 8650 3950
 Wire Wire Line
 	6800 2750 6600 2750
 Wire Wire Line
-	9350 4100 9150 4100
-Text GLabel 9350 4100 2    50   UnSpc ~ 0
+	8850 3850 8650 3850
+Text GLabel 8850 3850 2    50   UnSpc ~ 0
 PH6
 Wire Wire Line
 	6800 2550 6600 2550
 Wire Wire Line
-	9350 3950 9150 3950
+	8850 3750 8650 3750
 Text GLabel 6800 2550 2    50   UnSpc ~ 0
 PH3
-Text GLabel 9350 3950 2    50   UnSpc ~ 0
+Text GLabel 8850 3750 2    50   UnSpc ~ 0
 PH2
 Wire Wire Line
 	6600 2350 6800 2350
 Wire Wire Line
-	9150 3850 9350 3850
+	8650 3650 8850 3650
 Wire Wire Line
 	6600 2150 6800 2150
 Wire Wire Line
-	9150 3750 9350 3750
+	8650 3550 8850 3550
 Wire Wire Line
 	6600 1950 6800 1950
 Wire Wire Line
-	9150 3650 9350 3650
+	8650 3450 8850 3450
 Wire Wire Line
-	9150 3550 9350 3550
+	8650 3350 8850 3350
 Wire Wire Line
 	6600 1550 6800 1550
 Wire Wire Line
-	9150 3450 9350 3450
+	8650 3250 8850 3250
 Wire Wire Line
 	6600 1350 6800 1350
 Wire Wire Line
-	9150 3350 9350 3350
+	8650 3150 8850 3150
 Wire Wire Line
 	6600 1150 6800 1150
 Wire Wire Line
-	9150 3250 9350 3250
+	8650 3050 8850 3050
 Text GLabel 6800 2350 2    50   UnSpc ~ 0
 PG14
-Text GLabel 9350 3850 2    50   UnSpc ~ 0
+Text GLabel 8850 3650 2    50   UnSpc ~ 0
 PG13
 Text GLabel 6800 2150 2    50   UnSpc ~ 0
 PG12
-Text GLabel 9350 3750 2    50   UnSpc ~ 0
+Text GLabel 8850 3550 2    50   UnSpc ~ 0
 PG11
 Text GLabel 6800 1950 2    50   UnSpc ~ 0
 PG10
-Text GLabel 9350 3650 2    50   UnSpc ~ 0
+Text GLabel 8850 3450 2    50   UnSpc ~ 0
 PG9
-Text GLabel 9350 3550 2    50   UnSpc ~ 0
+Text GLabel 8850 3350 2    50   UnSpc ~ 0
 PG7
 Text GLabel 6800 1550 2    50   UnSpc ~ 0
 PG5
-Text GLabel 9350 3450 2    50   UnSpc ~ 0
+Text GLabel 8850 3250 2    50   UnSpc ~ 0
 PG4
 Text GLabel 6800 1350 2    50   UnSpc ~ 0
 PG3
-Text GLabel 9350 3350 2    50   UnSpc ~ 0
+Text GLabel 8850 3150 2    50   UnSpc ~ 0
 PG2
 Text GLabel 6800 1150 2    50   UnSpc ~ 0
 PG1
-Text GLabel 9350 3250 2    50   UnSpc ~ 0
+Text GLabel 8850 3050 2    50   UnSpc ~ 0
 PG0
 Wire Wire Line
 	6800 3150 6600 3150
 Text GLabel 6800 2750 2    50   UnSpc ~ 0
 PH7
-Text GLabel 9350 4300 2    50   UnSpc ~ 0
+Text GLabel 8850 3950 2    50   UnSpc ~ 0
 PH8
 Text GLabel 6800 2950 2    50   UnSpc ~ 0
 PH9
@@ -701,41 +690,11 @@ NoConn ~ 3700 4150
 NoConn ~ 3700 4250
 NoConn ~ 3700 4350
 NoConn ~ 3700 4450
-NoConn ~ 3700 4550
-NoConn ~ 3700 4650
-NoConn ~ 3700 4750
-NoConn ~ 3700 4850
-NoConn ~ 3700 4950
-NoConn ~ 3700 5050
-NoConn ~ 3700 5150
-NoConn ~ 3700 5250
-NoConn ~ 3700 5350
-NoConn ~ 3700 5450
-NoConn ~ 3700 5550
-NoConn ~ 3700 5650
-NoConn ~ 3700 5750
-NoConn ~ 3700 5850
-NoConn ~ 3700 5950
 NoConn ~ 4400 4050
 NoConn ~ 4400 4150
 NoConn ~ 4400 4250
 NoConn ~ 4400 4350
 NoConn ~ 4400 4450
-NoConn ~ 4400 4550
-NoConn ~ 4400 4650
-NoConn ~ 4400 4750
-NoConn ~ 4400 4850
-NoConn ~ 4400 4950
-NoConn ~ 4400 5050
-NoConn ~ 4400 5150
-NoConn ~ 4400 5250
-NoConn ~ 4400 5350
-NoConn ~ 4400 5450
-NoConn ~ 4400 5550
-NoConn ~ 4400 5650
-NoConn ~ 4400 5750
-NoConn ~ 4400 5850
-NoConn ~ 4400 5950
 NoConn ~ 5900 3550
 NoConn ~ 5900 3650
 NoConn ~ 5900 3750
@@ -801,16 +760,6 @@ NoConn ~ 7950 5650
 NoConn ~ 7950 5750
 NoConn ~ 7950 5850
 NoConn ~ 7950 5950
-NoConn ~ 8650 3050
-NoConn ~ 8650 3150
-NoConn ~ 8650 3250
-NoConn ~ 8650 3350
-NoConn ~ 8650 3450
-NoConn ~ 8650 3550
-NoConn ~ 8650 3650
-NoConn ~ 8650 3750
-NoConn ~ 8650 3850
-NoConn ~ 8650 3950
 NoConn ~ 8650 4050
 NoConn ~ 8650 4150
 NoConn ~ 8650 4250
@@ -1036,5 +985,16 @@ F 2 "" H 6600 2450 50  0001 C CNN
 F 3 "" H 6600 2450 50  0001 C CNN
 	1    6600 2450
 	0    -1   -1   0   
+$EndComp
+$Comp
+L U_Connector:DF40C-70DP-0.4V(51) U701
+U 1 1 611BF3A0
+P 4050 2650
+F 0 "U701" H 4050 4475 50  0000 C CNN
+F 1 "DF40C-70DP-0.4V(51)" H 4050 4384 50  0000 C CNN
+F 2 "U_Connector:DF40C70DP04V51" H 5200 3800 50  0001 C CNN
+F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf" H 5200 3800 50  0001 C CNN
+	1    4050 2650
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

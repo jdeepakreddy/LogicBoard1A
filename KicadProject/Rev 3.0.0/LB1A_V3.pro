@@ -1,4 +1,4 @@
-update=8/7/2021 4:13:49 PM
+update=8/9/2021 2:04:34 PM
 version=1
 last_client=kicad
 [general]
@@ -24,7 +24,7 @@ LabSize=50
 ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
-PageLayoutDescrFile=/home/deepak/workspaces/kicad_library/page_layout/A4_Custom_Sch_Sheet.kicad_wks
+PageLayoutDescrFile=D:/kicad_library/page_layout/A4_Custom_Sch_Sheet.kicad_wks
 LastNetListRead=
 CopperLayerCount=6
 BoardThickness=1.2
@@ -76,7 +76,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=L1_Sig_Pwr.Cu
 Type=2

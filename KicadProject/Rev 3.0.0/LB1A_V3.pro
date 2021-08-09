@@ -1,4 +1,4 @@
-update=8/9/2021 2:04:34 PM
+update=8/9/2021 7:16:25 PM
 version=1
 last_client=kicad
 [general]
@@ -38,7 +38,7 @@ MinViaDrill=0.2
 MinMicroViaDiameter=0.275
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.089
+TrackWidth1=0.0899
 TrackWidth2=0.1
 TrackWidth3=0.127
 TrackWidth4=0.2
@@ -76,7 +76,7 @@ OthersTextUpright=1
 SolderMaskClearance=0
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=0
+SolderPasteRatio=-0
 [pcbnew/Layer.F.Cu]
 Name=L1_Sig_Pwr.Cu
 Type=2
@@ -247,7 +247,7 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1
-TrackWidth=0.089
+TrackWidth=0.0899
 ViaDiameter=0.4
 ViaDrill=0.2
 uViaDiameter=0.275

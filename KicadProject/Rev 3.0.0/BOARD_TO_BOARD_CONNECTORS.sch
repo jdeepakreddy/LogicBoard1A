@@ -146,82 +146,82 @@ Wire Wire Line
 Wire Wire Line
 	6800 3050 6600 3050
 Wire Wire Line
-	6800 2950 6600 2950
+	6800 3750 6600 3750
 Wire Wire Line
 	8850 3950 8650 3950
 Wire Wire Line
-	6800 2750 6600 2750
+	8850 4750 8650 4750
 Wire Wire Line
 	8850 3850 8650 3850
 Text GLabel 8850 3850 2    50   UnSpc ~ 0
 PH6
 Wire Wire Line
-	6800 2550 6600 2550
+	6800 3650 6600 3650
 Wire Wire Line
 	8850 3750 8650 3750
-Text GLabel 6800 2550 2    50   UnSpc ~ 0
+Text GLabel 6800 3650 2    50   UnSpc ~ 0
 PH3
 Text GLabel 8850 3750 2    50   UnSpc ~ 0
 PH2
 Wire Wire Line
-	6600 2350 6800 2350
+	8650 4650 8850 4650
 Wire Wire Line
 	8650 3650 8850 3650
 Wire Wire Line
-	6600 2150 6800 2150
+	8650 4550 8850 4550
 Wire Wire Line
 	8650 3550 8850 3550
 Wire Wire Line
-	6600 1950 6800 1950
+	8650 4450 8850 4450
 Wire Wire Line
 	8650 3450 8850 3450
 Wire Wire Line
 	8650 3350 8850 3350
 Wire Wire Line
-	6600 1550 6800 1550
+	8650 4250 8850 4250
 Wire Wire Line
 	8650 3250 8850 3250
 Wire Wire Line
-	6600 1350 6800 1350
+	8650 4150 8850 4150
 Wire Wire Line
 	8650 3150 8850 3150
 Wire Wire Line
-	6600 1150 6800 1150
+	8650 4050 8850 4050
 Wire Wire Line
 	8650 3050 8850 3050
-Text GLabel 6800 2350 2    50   UnSpc ~ 0
+Text GLabel 8850 4650 2    50   UnSpc ~ 0
 PG14
 Text GLabel 8850 3650 2    50   UnSpc ~ 0
 PG13
-Text GLabel 6800 2150 2    50   UnSpc ~ 0
+Text GLabel 8850 4550 2    50   UnSpc ~ 0
 PG12
 Text GLabel 8850 3550 2    50   UnSpc ~ 0
 PG11
-Text GLabel 6800 1950 2    50   UnSpc ~ 0
+Text GLabel 8850 4450 2    50   UnSpc ~ 0
 PG10
 Text GLabel 8850 3450 2    50   UnSpc ~ 0
 PG9
 Text GLabel 8850 3350 2    50   UnSpc ~ 0
 PG7
-Text GLabel 6800 1550 2    50   UnSpc ~ 0
+Text GLabel 8850 4250 2    50   UnSpc ~ 0
 PG5
 Text GLabel 8850 3250 2    50   UnSpc ~ 0
 PG4
-Text GLabel 6800 1350 2    50   UnSpc ~ 0
+Text GLabel 8850 4150 2    50   UnSpc ~ 0
 PG3
 Text GLabel 8850 3150 2    50   UnSpc ~ 0
 PG2
-Text GLabel 6800 1150 2    50   UnSpc ~ 0
+Text GLabel 8850 4050 2    50   UnSpc ~ 0
 PG1
 Text GLabel 8850 3050 2    50   UnSpc ~ 0
 PG0
 Wire Wire Line
 	6800 3150 6600 3150
-Text GLabel 6800 2750 2    50   UnSpc ~ 0
+Text GLabel 8850 4750 2    50   UnSpc ~ 0
 PH7
 Text GLabel 8850 3950 2    50   UnSpc ~ 0
 PH8
-Text GLabel 6800 2950 2    50   UnSpc ~ 0
+Text GLabel 6800 3750 2    50   UnSpc ~ 0
 PH9
 Text GLabel 6800 3050 2    50   UnSpc ~ 0
 PH10
@@ -236,8 +236,8 @@ PH14
 Text GLabel 6800 3550 2    50   UnSpc ~ 0
 PH15
 Wire Wire Line
-	6600 1750 6800 1750
-Text GLabel 6800 1750 2    50   UnSpc ~ 0
+	8650 4350 8850 4350
+Text GLabel 8850 4350 2    50   UnSpc ~ 0
 PG8
 Wire Wire Line
 	7750 4350 7950 4350
@@ -720,8 +720,6 @@ NoConn ~ 5900 5650
 NoConn ~ 5900 5750
 NoConn ~ 5900 5850
 NoConn ~ 5900 5950
-NoConn ~ 6600 3650
-NoConn ~ 6600 3750
 NoConn ~ 6600 3850
 NoConn ~ 6600 3950
 NoConn ~ 6600 4050
@@ -760,14 +758,6 @@ NoConn ~ 7950 5650
 NoConn ~ 7950 5750
 NoConn ~ 7950 5850
 NoConn ~ 7950 5950
-NoConn ~ 8650 4050
-NoConn ~ 8650 4150
-NoConn ~ 8650 4250
-NoConn ~ 8650 4350
-NoConn ~ 8650 4450
-NoConn ~ 8650 4550
-NoConn ~ 8650 4650
-NoConn ~ 8650 4750
 NoConn ~ 8650 4850
 NoConn ~ 8650 4950
 NoConn ~ 8650 5050
@@ -810,28 +800,6 @@ Text Notes 3200 6600 0    50   ~ 0
 Fiducials
 Text Notes 1450 6600 0    50   ~ 0
 Mounting Holes
-$Comp
-L Mechanical:MountingHole H702
-U 1 1 6132F87D
-P 1550 7050
-F 0 "H702" H 1650 7096 50  0000 L CNN
-F 1 "M1.5" H 1650 7005 50  0000 L CNN
-F 2 "U_MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1550 7050 50  0001 C CNN
-F 3 "~" H 1550 7050 50  0001 C CNN
-	1    1550 7050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H701
-U 1 1 6132BCCA
-P 1550 6800
-F 0 "H701" H 1650 6846 50  0000 L CNN
-F 1 "M1.5" H 1650 6755 50  0000 L CNN
-F 2 "U_MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1550 6800 50  0001 C CNN
-F 3 "~" H 1550 6800 50  0001 C CNN
-	1    1550 6800
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:Fiducial FID705
 U 1 1 6132A459
@@ -965,17 +933,6 @@ F 3 "" H 6600 2650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L U_Power:5V_VIN #PWR0125
-U 1 1 619947BB
-P 6600 2850
-F 0 "#PWR0125" H 6600 2700 50  0001 C CNN
-F 1 "5V_VIN" V 6600 2950 50  0000 L CNN
-F 2 "" H 6600 2850 50  0001 C CNN
-F 3 "" H 6600 2850 50  0001 C CNN
-	1    6600 2850
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR0126
 U 1 1 61994C40
 P 6600 2450
@@ -997,4 +954,167 @@ F 3 "https://www.mouser.in/datasheet/2/185/DF40_CL0595_9327_0_00_2d-1613490.pdf"
 	1    4050 2650
 	1    0    0    -1  
 $EndComp
+$Comp
+L U_Power:5V_VIN #PWR0125
+U 1 1 611B0DCC
+P 6600 1150
+F 0 "#PWR0125" H 6600 1000 50  0001 C CNN
+F 1 "5V_VIN" V 6600 1250 50  0000 L CNN
+F 2 "" H 6600 1150 50  0001 C CNN
+F 3 "" H 6600 1150 50  0001 C CNN
+	1    6600 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0127
+U 1 1 611C09F7
+P 6600 1350
+F 0 "#PWR0127" H 6600 1100 50  0001 C CNN
+F 1 "GND" V 6600 1250 50  0000 R CNN
+F 2 "" H 6600 1350 50  0001 C CNN
+F 3 "" H 6600 1350 50  0001 C CNN
+	1    6600 1350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L U_Power:5V_VIN #PWR0128
+U 1 1 611D1C81
+P 6600 1550
+F 0 "#PWR0128" H 6600 1400 50  0001 C CNN
+F 1 "5V_VIN" V 6600 1650 50  0000 L CNN
+F 2 "" H 6600 1550 50  0001 C CNN
+F 3 "" H 6600 1550 50  0001 C CNN
+	1    6600 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0129
+U 1 1 611E1AF0
+P 6600 1750
+F 0 "#PWR0129" H 6600 1500 50  0001 C CNN
+F 1 "GND" V 6600 1650 50  0000 R CNN
+F 2 "" H 6600 1750 50  0001 C CNN
+F 3 "" H 6600 1750 50  0001 C CNN
+	1    6600 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L U_Power:5V_VIN #PWR0130
+U 1 1 611F1722
+P 6600 1950
+F 0 "#PWR0130" H 6600 1800 50  0001 C CNN
+F 1 "5V_VIN" V 6600 2050 50  0000 L CNN
+F 2 "" H 6600 1950 50  0001 C CNN
+F 3 "" H 6600 1950 50  0001 C CNN
+	1    6600 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 61201414
+P 6600 2150
+F 0 "#PWR0131" H 6600 1900 50  0001 C CNN
+F 1 "GND" V 6600 2050 50  0000 R CNN
+F 2 "" H 6600 2150 50  0001 C CNN
+F 3 "" H 6600 2150 50  0001 C CNN
+	1    6600 2150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L U_Power:5V_VIN #PWR0132
+U 1 1 6121266D
+P 6600 2350
+F 0 "#PWR0132" H 6600 2200 50  0001 C CNN
+F 1 "5V_VIN" V 6600 2450 50  0000 L CNN
+F 2 "" H 6600 2350 50  0001 C CNN
+F 3 "" H 6600 2350 50  0001 C CNN
+	1    6600 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0133
+U 1 1 6122394A
+P 6600 2550
+F 0 "#PWR0133" H 6600 2300 50  0001 C CNN
+F 1 "GND" V 6600 2450 50  0000 R CNN
+F 2 "" H 6600 2550 50  0001 C CNN
+F 3 "" H 6600 2550 50  0001 C CNN
+	1    6600 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L U_Power:5V_VIN #PWR0134
+U 1 1 61268FCA
+P 6600 2750
+F 0 "#PWR0134" H 6600 2600 50  0001 C CNN
+F 1 "5V_VIN" V 6600 2850 50  0000 L CNN
+F 2 "" H 6600 2750 50  0001 C CNN
+F 3 "" H 6600 2750 50  0001 C CNN
+	1    6600 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0135
+U 1 1 6127DD79
+P 6600 2850
+F 0 "#PWR0135" H 6600 2600 50  0001 C CNN
+F 1 "GND" V 6600 2750 50  0000 R CNN
+F 2 "" H 6600 2850 50  0001 C CNN
+F 3 "" H 6600 2850 50  0001 C CNN
+	1    6600 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0136
+U 1 1 6127DD7F
+P 6600 2950
+F 0 "#PWR0136" H 6600 2700 50  0001 C CNN
+F 1 "GND" V 6600 2850 50  0000 R CNN
+F 2 "" H 6600 2950 50  0001 C CNN
+F 3 "" H 6600 2950 50  0001 C CNN
+	1    6600 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H701
+U 1 1 61389C57
+P 1700 6750
+F 0 "H701" V 1700 6900 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1800 6708 50  0001 L CNN
+F 2 "U_MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1700 6750 50  0001 C CNN
+F 3 "~" H 1700 6750 50  0001 C CNN
+	1    1700 6750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H702
+U 1 1 61389F3F
+P 1700 7000
+F 0 "H702" V 1700 7150 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1800 6958 50  0001 L CNN
+F 2 "U_MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 1700 7000 50  0001 C CNN
+F 3 "~" H 1700 7000 50  0001 C CNN
+	1    1700 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61390B35
+P 1500 7100
+F 0 "#PWR?" H 1500 6850 50  0001 C CNN
+F 1 "GND" H 1505 6927 50  0000 C CNN
+F 2 "" H 1500 7100 50  0001 C CNN
+F 3 "" H 1500 7100 50  0001 C CNN
+	1    1500 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 7100 1500 7000
+Wire Wire Line
+	1500 6750 1600 6750
+Wire Wire Line
+	1600 7000 1500 7000
+Connection ~ 1500 7000
+Wire Wire Line
+	1500 7000 1500 6750
 $EndSCHEMATC

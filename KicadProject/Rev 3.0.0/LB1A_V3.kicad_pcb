@@ -3,7 +3,7 @@
   (general
     (thickness 1.2)
     (drawings 8)
-    (tracks 512)
+    (tracks 514)
     (zones 0)
     (modules 189)
     (nets 558)
@@ -9164,6 +9164,8 @@
   (gr_line (start 145 87) (end 145 128) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 102 85) (end 143 85) (layer Edge.Cuts) (width 0.05))
 
+  (via (at 119.35 98) (size 0.4) (drill 0.2) (layers L1_Sig_Pwr.Cu L6_Sig_Pwr.Cu) (net 1))
+  (via (at 117.25 101.3) (size 0.4) (drill 0.2) (layers L1_Sig_Pwr.Cu L6_Sig_Pwr.Cu) (net 1))
   (via (at 115.95 99.7) (size 0.4) (drill 0.2) (layers L1_Sig_Pwr.Cu L6_Sig_Pwr.Cu) (net 10))
   (via (at 115.25 99.7) (size 0.4) (drill 0.2) (layers L1_Sig_Pwr.Cu L6_Sig_Pwr.Cu) (net 10))
   (via (at 114.5 99.7) (size 0.4) (drill 0.2) (layers L1_Sig_Pwr.Cu L6_Sig_Pwr.Cu) (net 10))

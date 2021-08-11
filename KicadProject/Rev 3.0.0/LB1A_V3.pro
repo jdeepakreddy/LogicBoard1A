@@ -1,4 +1,4 @@
-update=8/9/2021 7:16:25 PM
+update=8/11/2021 10:35:38 AM
 version=1
 last_client=kicad
 [general]
@@ -247,6 +247,17 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1
+TrackWidth=0.0899
+ViaDiameter=0.4
+ViaDrill=0.2
+uViaDiameter=0.275
+uViaDrill=0.1
+dPairWidth=0.1
+dPairGap=0.127
+dPairViaGap=0.25
+[pcbnew/Netclasses/1]
+Name=DDR3L
+Clearance=0.33
 TrackWidth=0.0899
 ViaDiameter=0.4
 ViaDrill=0.2

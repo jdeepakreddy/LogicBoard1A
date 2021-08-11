@@ -335,15 +335,11 @@ F 3 "" H 7750 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 1150 4850 1150
+	5400 1550 4850 1550
 Wire Wire Line
 	5400 1250 4850 1250
 Wire Wire Line
-	5400 1350 4850 1350
-Wire Wire Line
-	5400 1450 4850 1450
-Wire Wire Line
-	5400 1550 4850 1550
+	5400 1150 4850 1150
 Wire Wire Line
 	5400 1650 4850 1650
 Wire Wire Line
@@ -351,27 +347,29 @@ Wire Wire Line
 Wire Wire Line
 	5400 1850 4850 1850
 Wire Wire Line
+	5400 1350 4850 1350
+Wire Wire Line
+	5400 1450 4850 1450
+Wire Wire Line
 	5400 1950 4850 1950
 Wire Wire Line
 	5400 2050 4850 2050
 Wire Wire Line
 	5400 2150 4850 2150
 Wire Wire Line
-	5400 2400 4850 2400
-Wire Wire Line
-	5400 2500 4850 2500
-Wire Wire Line
-	5400 2600 4850 2600
-Wire Wire Line
-	5400 2700 4850 2700
+	5400 2900 4850 2900
 Wire Wire Line
 	5400 2800 4850 2800
 Wire Wire Line
-	5400 2900 4850 2900
+	5400 2700 4850 2700
 Wire Wire Line
 	5400 3000 4850 3000
 Wire Wire Line
 	5400 3100 4850 3100
+Wire Wire Line
+	5400 2500 4850 2500
+Wire Wire Line
+	5400 2600 4850 2600
 Wire Wire Line
 	5400 3200 4850 3200
 Wire Wire Line
@@ -443,21 +441,21 @@ F 3 "" H 11400 3000 50  0001 C CNN
 	2    9700 2700
 	1    0    0    -1  
 $EndComp
-Text Label 4950 1150 0    50   ~ 0
+Text Label 4950 1550 0    50   ~ 0
 DDR_DQ9
 Text Label 4950 1250 0    50   ~ 0
 DDR_DQ11
-Text Label 4950 1350 0    50   ~ 0
+Text Label 4950 1150 0    50   ~ 0
 DDR_DQ8
-Text Label 4950 1450 0    50   ~ 0
-DDR_DQ15
-Text Label 4950 1550 0    50   ~ 0
-DDR_DQ13
 Text Label 4950 1650 0    50   ~ 0
-DDR_DQ12
+DDR_DQ15
 Text Label 4950 1750 0    50   ~ 0
-DDR_DQ10
+DDR_DQ13
 Text Label 4950 1850 0    50   ~ 0
+DDR_DQ12
+Text Label 4950 1350 0    50   ~ 0
+DDR_DQ10
+Text Label 4950 1450 0    50   ~ 0
 DDR_DQ14
 Text Label 4900 1950 0    50   ~ 0
 DDR_DQS1_N
@@ -465,21 +463,17 @@ Text Label 4900 2050 0    50   ~ 0
 DDR_DQS1_P
 Text Label 4900 2150 0    50   ~ 0
 DDR_DQM1
-Text Label 4950 2400 0    50   ~ 0
-DDR_DQ6
-Text Label 4950 2500 0    50   ~ 0
-DDR_DQ1
-Text Label 4950 2600 0    50   ~ 0
-DDR_DQ5
-Text Label 4950 2700 0    50   ~ 0
-DDR_DQ3
-Text Label 4950 2800 0    50   ~ 0
-DDR_DQ2
 Text Label 4950 2900 0    50   ~ 0
-DDR_DQ0
+DDR_DQ6
+Text Label 4950 2800 0    50   ~ 0
+DDR_DQ1
+Text Label 4950 2700 0    50   ~ 0
+DDR_DQ5
 Text Label 4950 3000 0    50   ~ 0
-DDR_DQ4
+DDR_DQ3
 Text Label 4950 3100 0    50   ~ 0
+DDR_DQ2
+Text Label 4950 2600 0    50   ~ 0
 DDR_DQ7
 Text Label 4900 3200 0    50   ~ 0
 DDR_DQS0_N
@@ -2084,4 +2078,10 @@ Wire Wire Line
 	9800 5650 10100 5650
 Connection ~ 9800 5650
 Connection ~ 10100 5650
+Text Label 4950 2500 0    50   ~ 0
+DDR_DQ4
+Text Label 4950 2400 0    50   ~ 0
+DDR_DQ0
+Wire Wire Line
+	5400 2400 4850 2400
 $EndSCHEMATC

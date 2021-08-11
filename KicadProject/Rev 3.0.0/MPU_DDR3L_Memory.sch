@@ -361,13 +361,13 @@ Wire Wire Line
 Wire Wire Line
 	5400 2800 4850 2800
 Wire Wire Line
-	5400 2700 4850 2700
+	5400 2500 4850 2500
 Wire Wire Line
 	5400 3000 4850 3000
 Wire Wire Line
 	5400 3100 4850 3100
 Wire Wire Line
-	5400 2500 4850 2500
+	5400 2700 4850 2700
 Wire Wire Line
 	5400 2600 4850 2600
 Wire Wire Line
@@ -467,7 +467,7 @@ Text Label 4950 2900 0    50   ~ 0
 DDR_DQ6
 Text Label 4950 2800 0    50   ~ 0
 DDR_DQ1
-Text Label 4950 2700 0    50   ~ 0
+Text Label 4950 2500 0    50   ~ 0
 DDR_DQ5
 Text Label 4950 3000 0    50   ~ 0
 DDR_DQ3
@@ -2050,7 +2050,7 @@ Wire Wire Line
 	9800 5650 10100 5650
 Connection ~ 9800 5650
 Connection ~ 10100 5650
-Text Label 4950 2500 0    50   ~ 0
+Text Label 4950 2700 0    50   ~ 0
 DDR_DQ4
 Text Label 4950 2400 0    50   ~ 0
 DDR_DQ0

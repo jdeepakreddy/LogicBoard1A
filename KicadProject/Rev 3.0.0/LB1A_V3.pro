@@ -1,4 +1,4 @@
-update=8/11/2021 10:35:38 AM
+update=8/11/2021 12:24:05 PM
 version=1
 last_client=kicad
 [general]
@@ -51,7 +51,7 @@ TrackWidth10=0.7
 ViaDiameter1=0.4
 ViaDrill1=0.2
 dPairWidth1=0.1
-dPairGap1=0.127
+dPairGap1=0.13
 dPairViaGap1=0.25
 SilkLineWidth=0.12
 SilkTextSizeV=1
@@ -253,7 +253,7 @@ ViaDrill=0.2
 uViaDiameter=0.275
 uViaDrill=0.1
 dPairWidth=0.1
-dPairGap=0.127
+dPairGap=0.13
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=DDR3L
@@ -264,5 +264,5 @@ ViaDrill=0.2
 uViaDiameter=0.275
 uViaDrill=0.1
 dPairWidth=0.1
-dPairGap=0.127
+dPairGap=0.13
 dPairViaGap=0.25

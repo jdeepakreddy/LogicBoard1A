@@ -133,7 +133,6 @@ Wire Notes Line
 	650  1200 1250 1200
 Text Notes 650  1150 0    50   ~ 0
 DDR_BYTE_0&1
-NoConn ~ 3550 3850
 NoConn ~ 3100 5700
 NoConn ~ 3100 5800
 NoConn ~ 3100 5900
@@ -366,8 +365,6 @@ Wire Wire Line
 	5400 3000 4850 3000
 Wire Wire Line
 	5400 3100 4850 3100
-Wire Wire Line
-	5400 2700 4850 2700
 Wire Wire Line
 	5400 2600 4850 2600
 Wire Wire Line
@@ -1340,58 +1337,14 @@ F 3 "~" H 5700 4750 50  0001 C CNN
 	1    5700 4750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C205
-U 1 1 6194A18E
-P 6000 4750
-F 0 "C205" H 6000 4850 50  0000 L CNN
-F 1 "100nF" H 6000 4650 50  0000 L CNN
-F 2 "U_Capacitor_SMD:C_0402_1005Metric" H 6000 4750 50  0001 C CNN
-F 3 "~" H 6000 4750 50  0001 C CNN
-	1    6000 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C206
-U 1 1 6194A593
-P 6300 4750
-F 0 "C206" H 6300 4850 50  0000 L CNN
-F 1 "100nF" H 6300 4650 50  0000 L CNN
-F 2 "U_Capacitor_SMD:C_0402_1005Metric" H 6300 4750 50  0001 C CNN
-F 3 "~" H 6300 4750 50  0001 C CNN
-	1    6300 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0211
-U 1 1 6194BA00
-P 6300 4950
-F 0 "#PWR0211" H 6300 4700 50  0001 C CNN
-F 1 "GND" H 6305 4777 50  0000 C CNN
-F 2 "" H 6300 4950 50  0001 C CNN
-F 3 "" H 6300 4950 50  0001 C CNN
-	1    6300 4950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 4950 6300 4900
-Wire Wire Line
-	6300 4900 6000 4900
 Wire Wire Line
 	5700 4900 5700 4850
-Connection ~ 6300 4900
-Wire Wire Line
-	6300 4900 6300 4850
 Wire Wire Line
 	6000 4850 6000 4900
 Wire Wire Line
 	5450 4600 5700 4600
 Wire Wire Line
-	6300 4600 6300 4650
-Wire Wire Line
 	6000 4650 6000 4600
-Wire Wire Line
-	6000 4600 6300 4600
 Wire Wire Line
 	5700 4650 5700 4600
 $Comp
@@ -1792,52 +1745,18 @@ F 3 "~" H 9800 5500 50  0001 C CNN
 	1    9800 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C_Small C223
-U 1 1 61BF95AA
-P 10100 5500
-F 0 "C223" H 10100 5600 50  0000 L CNN
-F 1 "10uF" H 10100 5400 50  0000 L CNN
-F 2 "U_Capacitor_SMD:C_0603_1608Metric" H 10100 5500 50  0001 C CNN
-F 3 "~" H 10100 5500 50  0001 C CNN
-	1    10100 5500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9500 5650 9500 5600
-Wire Wire Line
-	10100 5650 10100 5600
 Wire Wire Line
 	9800 5600 9800 5650
 Wire Wire Line
 	9800 5650 9500 5650
-Wire Wire Line
-	10100 5350 10100 5400
 Wire Wire Line
 	9800 5400 9800 5350
 Wire Wire Line
 	9500 5400 9500 5350
 Wire Wire Line
 	9500 5350 9800 5350
-$Comp
-L Device:C_Small C224
-U 1 1 61CF95DF
-P 10400 5500
-F 0 "C224" H 10400 5600 50  0000 L CNN
-F 1 "10uF" H 10400 5400 50  0000 L CNN
-F 2 "U_Capacitor_SMD:C_0603_1608Metric" H 10400 5500 50  0001 C CNN
-F 3 "~" H 10400 5500 50  0001 C CNN
-	1    10400 5500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 5350 10400 5350
-Wire Wire Line
-	10400 5350 10400 5400
-Wire Wire Line
-	10100 5650 10400 5650
-Wire Wire Line
-	10400 5650 10400 5600
 $Comp
 L U_Power:PMIC_VOUT2_VDD_DDR #PWR0212
 U 1 1 61D41705
@@ -1868,12 +1787,6 @@ Wire Wire Line
 Connection ~ 7400 5650
 Text Notes 8400 5300 0    50   ~ 0
 Connect to RAM VDD Power Plane
-Wire Notes Line
-	7000 5050 10700 5050
-Wire Notes Line
-	10700 5050 10700 5850
-Wire Notes Line
-	10700 5850 7000 5850
 Wire Notes Line
 	7000 5850 7000 5050
 Text Notes 8300 5000 0    50   ~ 0
@@ -2039,19 +1952,9 @@ Wire Wire Line
 Connection ~ 9200 5350
 Connection ~ 9500 5350
 Wire Wire Line
-	9800 5350 10100 5350
-Connection ~ 9800 5350
-Connection ~ 10100 5350
-Wire Wire Line
 	9200 5650 9500 5650
 Connection ~ 9200 5650
 Connection ~ 9500 5650
-Wire Wire Line
-	9800 5650 10100 5650
-Connection ~ 9800 5650
-Connection ~ 10100 5650
-Text Label 4950 2700 0    50   ~ 0
-DDR_DQ4
 Text Label 4950 2400 0    50   ~ 0
 DDR_DQ0
 Wire Wire Line
@@ -2059,8 +1962,104 @@ Wire Wire Line
 Wire Wire Line
 	5700 4600 6000 4600
 Connection ~ 5700 4600
-Connection ~ 6000 4600
 Wire Wire Line
 	5700 4900 6000 4900
+Wire Notes Line
+	10700 5850 7000 5850
+Wire Notes Line
+	7000 5050 10700 5050
+Wire Notes Line
+	10700 5050 10700 5850
+Connection ~ 9800 5650
+Connection ~ 9800 5350
+Connection ~ 10100 5650
+Wire Wire Line
+	9800 5650 10100 5650
+Connection ~ 10100 5350
+Wire Wire Line
+	9800 5350 10100 5350
+Wire Wire Line
+	10400 5650 10400 5600
+Wire Wire Line
+	10100 5650 10400 5650
+Wire Wire Line
+	10400 5350 10400 5400
+Wire Wire Line
+	10100 5350 10400 5350
+$Comp
+L Device:C_Small C224
+U 1 1 61CF95DF
+P 10400 5500
+F 0 "C224" H 10400 5600 50  0000 L CNN
+F 1 "10uF" H 10400 5400 50  0000 L CNN
+F 2 "U_Capacitor_SMD:C_0603_1608Metric" H 10400 5500 50  0001 C CNN
+F 3 "~" H 10400 5500 50  0001 C CNN
+	1    10400 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 5350 10100 5400
+Wire Wire Line
+	10100 5650 10100 5600
+$Comp
+L Device:C_Small C223
+U 1 1 61BF95AA
+P 10100 5500
+F 0 "C223" H 10100 5600 50  0000 L CNN
+F 1 "10uF" H 10100 5400 50  0000 L CNN
+F 2 "U_Capacitor_SMD:C_0603_1608Metric" H 10100 5500 50  0001 C CNN
+F 3 "~" H 10100 5500 50  0001 C CNN
+	1    10100 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C205
+U 1 1 6194A18E
+P 6000 4750
+F 0 "C205" H 6000 4850 50  0000 L CNN
+F 1 "100nF" H 6000 4650 50  0000 L CNN
+F 2 "U_Capacitor_SMD:C_0402_1005Metric" H 6000 4750 50  0001 C CNN
+F 3 "~" H 6000 4750 50  0001 C CNN
+	1    6000 4750
+	1    0    0    -1  
+$EndComp
 Connection ~ 6000 4900
+Connection ~ 6000 4600
+Wire Wire Line
+	6000 4600 6300 4600
+Wire Wire Line
+	6300 4600 6300 4650
+Wire Wire Line
+	6300 4900 6300 4850
+Connection ~ 6300 4900
+Wire Wire Line
+	6300 4900 6000 4900
+Wire Wire Line
+	6300 4950 6300 4900
+$Comp
+L power:GND #PWR0211
+U 1 1 6194BA00
+P 6300 4950
+F 0 "#PWR0211" H 6300 4700 50  0001 C CNN
+F 1 "GND" H 6305 4777 50  0000 C CNN
+F 2 "" H 6300 4950 50  0001 C CNN
+F 3 "" H 6300 4950 50  0001 C CNN
+	1    6300 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C206
+U 1 1 6194A593
+P 6300 4750
+F 0 "C206" H 6300 4850 50  0000 L CNN
+F 1 "100nF" H 6300 4650 50  0000 L CNN
+F 2 "U_Capacitor_SMD:C_0402_1005Metric" H 6300 4750 50  0001 C CNN
+F 3 "~" H 6300 4750 50  0001 C CNN
+	1    6300 4750
+	1    0    0    -1  
+$EndComp
+Text Label 4950 2700 0    50   ~ 0
+DDR_DQ4
+Wire Wire Line
+	5400 2700 4850 2700
 $EndSCHEMATC

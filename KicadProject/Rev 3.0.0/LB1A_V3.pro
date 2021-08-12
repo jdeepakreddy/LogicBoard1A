@@ -1,4 +1,4 @@
-update=8/11/2021 12:24:05 PM
+update=8/12/2021 12:58:44 PM
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ RequireCourtyardDefinitions=0
 ProhibitOverlappingCourtyards=1
 MinTrackWidth=0.08889999999999999
 MinViaDiameter=0.4
-MinViaDrill=0.2
+MinViaDrill=0.15
 MinMicroViaDiameter=0.275
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
@@ -50,6 +50,8 @@ TrackWidth9=0.6
 TrackWidth10=0.7
 ViaDiameter1=0.4
 ViaDrill1=0.2
+ViaDiameter2=0.4
+ViaDrill2=0.15
 dPairWidth1=0.1
 dPairGap1=0.13
 dPairViaGap1=0.25

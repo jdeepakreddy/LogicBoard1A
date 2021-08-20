@@ -1,4 +1,4 @@
-update=8/12/2021 12:58:44 PM
+update=8/20/2021 8:52:14 AM
 version=1
 last_client=kicad
 [general]
@@ -12,16 +12,6 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=D:/kicad_library/page_layout/A4_Custom_Sch_Sheet.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=D:/kicad_library/page_layout/A4_Custom_Sch_Sheet.kicad_wks
@@ -268,3 +258,13 @@ uViaDrill=0.1
 dPairWidth=0.1
 dPairGap=0.13
 dPairViaGap=0.25
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/kicad_library/page_layout/A4_Custom_Sch_Sheet.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1
